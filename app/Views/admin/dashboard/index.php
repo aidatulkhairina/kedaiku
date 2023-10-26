@@ -43,10 +43,10 @@
             <?php foreach($all_pekan as $pekan){ ?>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
                 <div class="card">
-                    <img src="<?php echo $pekan['gambar']; ?>" class="card-img-top" alt="...">
+                    <img src="/img/<?php echo $pekan->nama_file; ?>" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title"><?php echo $pekan['nama'] ?></h5>
-                      <p class="card-text"><?php echo $pekan['description'] ?></p>
+                      <h5 class="card-title"><?php echo $pekan->nama ?></h5>
+                      <p class="card-text"><?php echo $pekan->description ?></p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
