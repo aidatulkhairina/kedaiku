@@ -6,7 +6,7 @@
     <title>listing</title>
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="/css/admin.css">
 
 </head>
 <body>
@@ -20,6 +20,29 @@
     </nav>
 
     <div class="container">
+
+        <?php if(isset($_SESSION['success'])){ ?>
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>Yay!</strong> New data has been added.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <?php } ?>
+
+        <?php if(isset($_SESSION['deleted'])){ ?>
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Yay!</strong> New data has been deleted.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <?php } ?>
+
         <div class="row">
             <div class="col-12">
                 <h3>Senarai Gambar</h3>
@@ -45,7 +68,7 @@
                             <td><?= $g['nama'] ?></td>
                             <td>
                                 <a href="/gambar/edit/<?= $g['id'] ?>" class="btn btn-primary btn-sm">Edit</a>
-                                <a href="/gambar/delete/<?= $g['id'] ?>" class="btn btn-danger btn-sm">Delete</a>
+                                <button href="/gambar/delete/<?= $g['id'] ?>" onclick="confirm_delete(<?= $g['id'] ?>)" class="btn btn-danger btn-sm">Delete</button>
                             </td>
                         </tr>
                         <?php } ?>
@@ -53,11 +76,19 @@
                 </table>
             </div>
         </div>
+        
 
+
+        <div id="my-pagination">
+            <?= $pager->links() ?>
+        </div>
+
+        
         <!-- pagination-->
-        <div class="row p-2">
-        </div class="col">
-            <nav aria-label="Page navigation example">
+        
+
+
+                <!-- <nav aria-label="Page navigation example">
                 <ul class="pagination justify-content-center">
                 <li class="page-item">
                     <a class="page-link" href="#" aria-label="Previous">
@@ -73,14 +104,23 @@
                     </a>
                 </li>
                 </ul>
-            </nav>
-        </div>
+            
+            </nav> -->
+            
+    </div>
 
         <footer class="text-center p-5">
             <p>hakcipta terpelihara &copy; 2023</p>
         </footer>
 
-    </div>
-    </div>
+<script>
+    function confirm_delete(id){
+        if(confirm('Are your sure to delete record ID '+id+'?')){
+            window.location.href = '/gambar/delete/'+id;
+        }
+        
+    }
+</script>
+
 </body>
 </html>
