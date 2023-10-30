@@ -1,0 +1,258 @@
+CRITICAL - 2023-10-30 00:57:50 --> "auth" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 354.
+ 1 SYSTEMPATH\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:01:57 --> "auth" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 354.
+ 1 SYSTEMPATH\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:14:32 --> Undefined variable $pager
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:17:58 --> Undefined variable $pager
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:18:10 --> Undefined variable $pager
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:20:53 --> Undefined variable $pager
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:22:54 --> Undefined variable $pager
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:23:07 --> Undefined variable $pager
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:23:10 --> Undefined variable $pager
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:27:42 --> Undefined variable $pager
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:34:07 --> Undefined variable $pager
+in APPPATH\Controllers\Home.php on line 58.
+ 1 APPPATH\Controllers\Home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Home.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:43:10 --> Undefined constant "data"
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 4 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:46:43 --> Undefined variable $pager
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:47:16 --> Call to a member function links() on array
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 4 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:47:30 --> Call to a member function links() on array
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 4 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:47:39 --> Call to a member function links() on array
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 4 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:47:44 --> Call to a member function links() on array
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 4 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:47:56 --> Call to a member function links() on array
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 4 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:48:24 --> Illegal offset type
+in APPPATH\Controllers\Home.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:48:57 --> Undefined constant "App\Controllers\pager"
+in APPPATH\Controllers\Home.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:50:57 --> Undefined variable $pager
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [...], true)
+ 5 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:52:24 --> Undefined variable $pager
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:52:25 --> Undefined variable $pager
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:52:58 --> Undefined variable $pager
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Home.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:53:53 --> Call to undefined method App\Models\GambarModel::links
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Views\admin\dashboard\index.php(81): CodeIgniter\Model->__call('links', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:58:21 --> Undefined variable $pager
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Home.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 02:00:09 --> Call to a member function links() on null
+in APPPATH\Views\admin\dashboard\index.php on line 81.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 4 APPPATH\Controllers\Home.php(59): view('admin/dashboard/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

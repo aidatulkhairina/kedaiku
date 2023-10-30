@@ -32,11 +32,11 @@
       </div>
       <div class="row mt-5">
         <div class="col text-center">
-            <h1>Gambar mesya</h1>
+            <h1>Gallery</h1>
         </div>
       </div>
 
-      <div class="container mt-3">
+    <div class="container mt-3 pb-5">
         <div class="row">
             
 
@@ -55,7 +55,7 @@
         </div>
             
         <!-- pagination-->
-        <div class="row p-5">
+        <!-- <div class="row p-5">
             </div class="col">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
@@ -74,9 +74,10 @@
                     </li>
                     </ul>
                 </nav>
-            </div>
-        </div>
-        
+            </div>-->
+    </div> 
+
+       
         <footer class="text-center p-5">
             <p>hakcipta terpelihara &copy; 2023</p>
         </footer>
