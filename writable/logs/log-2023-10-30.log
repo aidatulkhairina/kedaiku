@@ -256,3 +256,102 @@ in APPPATH\Views\admin\dashboard\index.php on line 81.
  6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 03:51:20 --> Undefined array key "nama_file"
+in APPPATH\Views\admin\admin_produk\listing.php on line 67.
+ 1 APPPATH\Views\admin\admin_produk\listing.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_file"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\listing.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\listing.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_produk/listing', [], true)
+ 5 APPPATH\Controllers\Admin\Produk.php(28): view('admin/admin_produk/listing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 03:52:25 --> Undefined array key "nama_file"
+in APPPATH\Views\admin\admin_produk\listing.php on line 67.
+ 1 APPPATH\Views\admin\admin_produk\listing.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_file"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\listing.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\listing.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_produk/listing', [], true)
+ 5 APPPATH\Controllers\Admin\Produk.php(28): view('admin/admin_produk/listing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 03:52:27 --> Undefined array key "nama_file"
+in APPPATH\Views\admin\admin_produk\listing.php on line 67.
+ 1 APPPATH\Views\admin\admin_produk\listing.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_file"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\listing.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\listing.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_produk/listing', [], true)
+ 5 APPPATH\Controllers\Admin\Produk.php(28): view('admin/admin_produk/listing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 04:22:21 --> Undefined variable $gambar
+in APPPATH\Views\admin\admin_produk\listing.php on line 65.
+ 1 APPPATH\Views\admin\admin_produk\listing.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gambar', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\listing.php', 65)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\listing.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_produk/listing', [], true)
+ 5 APPPATH\Controllers\Admin\Produk.php(28): view('admin/admin_produk/listing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 04:22:31 --> Undefined variable $g
+in APPPATH\Views\admin\admin_produk\listing.php on line 67.
+ 1 APPPATH\Views\admin\admin_produk\listing.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $g', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\listing.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\listing.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_produk/listing', [], true)
+ 5 APPPATH\Controllers\Admin\Produk.php(28): view('admin/admin_produk/listing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 06:15:30 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Admin\Produk.php(105): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1698646530_05a77d1e8a79943eab2d')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->save_edit('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 06:20:40 --> Undefined variable $produk
+in APPPATH\Views\admin\admin_produk\add.php on line 40.
+ 1 APPPATH\Views\admin\admin_produk\add.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\add.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\add.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_produk/add', [], true)
+ 5 APPPATH\Controllers\Admin\Produk.php(50): view('admin/admin_produk/add')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 06:23:59 --> syntax error, unexpected single-quoted string "harga", expecting "]"
+in APPPATH\Controllers\Admin\Produk.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Produk.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Produk')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Produk')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Admin\\Produk', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 06:26:24 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Admin\Produk.php(107): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1698647184_8dd2a4b08d5014459df0')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->save_edit('16')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:04:09 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Admin\Produk.php(107): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1698649449_ca71e9da99f25a6354df')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->save_edit('19')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

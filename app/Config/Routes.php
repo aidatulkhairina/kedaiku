@@ -5,7 +5,14 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
+// $routes->setDefaultNamespace('App\Controllers\Admin');
+// $routes->setDefaultController('Home');
+// $routes->setDefaultMethod('index');
+// $routes->setTranslateURIDashes(false);
+// $routes->set404Override();
 $routes->setAutoRoute(true);
+
+
 
 /**
  * --------------------------------------------------------------------
@@ -21,6 +28,11 @@ $routes->match(['get', 'post'], 'resetpassword/(:num)/(:any)', 'Auth::resetPassw
 $routes->match(['get', 'post'], 'updatepassword/(:num)', 'Auth::updatepassword/$1'); // UPDATE PASSWORD
 $routes->match(['get', 'post'], 'lockscreen', 'Auth::lockscreen'); // LOCK SCREEN
 $routes->get('logout', 'Auth::logout'); // LOGOUT
+
+$routes->get('bakul', 'Admin\Bakul::index');
+$routes->get('produk_homepage', 'Admin\Produk::homepage');
+
+
 
 /**
  * --------------------------------------------------------------------
@@ -46,6 +58,20 @@ $routes->get('logout', 'Auth::logout'); // LOGOUT
 
     $routes->post('gambar/edit/(:num)', 'Admin\Gambar::save_edit/$1');
 
+
+    $routes->get('produk', 'Admin\Produk::index');
+
+    $routes->get('produk/edit/(:num)', 'Admin\Produk::edit/$1');
+
+    $routes->get('produk/delete/(:num)', 'Admin\Produk::delete/$1');
+
+    $routes->get('produk/add', 'Admin\Produk::add');
+
+    $routes->post('produk/add', 'Admin\Produk::save_new');
+
+    $routes->post('produk/edit/(:num)', 'Admin\Produk::save_edit/$1');
+
+    $routes->get('produk_homepage', 'Admin\Produk::homepage');
 
 
 });
