@@ -29,28 +29,20 @@ $routes->match(['get', 'post'], 'updatepassword/(:num)', 'Auth::updatepassword/$
 $routes->match(['get', 'post'], 'lockscreen', 'Auth::lockscreen'); // LOCK SCREEN
 $routes->get('logout', 'Auth::logout'); // LOGOUT
 
-$routes->get('bakul', 'Admin\Bakul::index');
+
 // $routes->post('produk_homepage', 'Admin\Produk::homepage');
 $routes->get('/', 'Admin\Produk::homepage');
 //$routes->get('bakul/add', 'Admin\Bakul::add');
+$routes->get('bakul', 'Admin\Bakul::index');
+
 $routes->post('bakul/add','Admin\Bakul::add');
 
 $routes->post('bakul/update','Admin\Bakul::update');
 
+$routes->post('bakul/remove','Admin\Bakul::remove');
 
-
-
-$routes->get('produk', 'Admin\Produk::index');
-
-$routes->get('produk/edit/(:num)', 'Admin\Produk::edit/$1');
-
-$routes->get('produk/delete/(:num)', 'Admin\Produk::delete/$1');
-
-$routes->get('produk/add', 'Admin\Produk::add');
-
-$routes->post('produk/add', 'Admin\Produk::save_new');
-
-$routes->post('produk/edit/(:num)', 'Admin\Produk::save_edit/$1');
+$routes->get('bakul/remove/(:num)', 'Admin\Bakul::remove/$1');
+    
 
 // $routes->get('produk_homepage', 'Admin\Produk::homepage');
 
@@ -79,8 +71,21 @@ $routes->post('produk/edit/(:num)', 'Admin\Produk::save_edit/$1');
 
     $routes->post('gambar/edit/(:num)', 'Admin\Gambar::save_edit/$1');
 
+    
+    $routes->get('produk', 'Admin\Produk::index');
 
-
+    $routes->get('produk/edit/(:num)', 'Admin\Produk::edit/$1');
+    
+    $routes->get('produk/delete/(:num)', 'Admin\Produk::delete/$1');
+    
+    $routes->get('produk/add', 'Admin\Produk::add');
+    
+    $routes->post('produk/add', 'Admin\Produk::save_new');
+    
+    $routes->post('produk/edit/(:num)', 'Admin\Produk::save_edit/$1');
+    
+    $routes->post('bakul/remove','Admin\Bakul::remove');
+    
 });
 
 

@@ -13,7 +13,7 @@
     
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
             <img src="/img/ering.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
             Bootstrap 
         </a>

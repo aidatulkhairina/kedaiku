@@ -11,6 +11,18 @@
             </div>
         </div>
         <?php } ?>
+
+        <?php if(isset($_SESSION['remove'])){ ?>
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>Ops!</strong> Your item has been removed.</a>.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div> 
+        <?php } ?>
+
     <div class="row">
         <div class="col-12">
             <h2><a href="/" class="btn btn-sm btn-warning">Back</a> Your Cart</h2>
@@ -37,7 +49,7 @@
                             <?php foreach($_SESSION['cart']['items'] as $item) { ?>
                             <tr>
                             <td>
-                                    <a href="" class="btn btn-danger btn-sm">REMOVE</a>
+                                    <a href="#" class="btn btn-danger btn-sm" onclick="confirm_remove(<?= $item['id'] ?>)">REMOVE</a>
                                 </td>
                                 <td><?php echo ++$counter ?></td>
                             <td><?php echo $item['nama'] ?></td>
@@ -77,6 +89,15 @@
         
         </div>
     </div>
+
+    <script>
+    function confirm_remove(id){
+        if(confirm('Are your sure to remove the item?')){
+            window.location.href = '/bakul/remove/'+id;
+        }
+       
+    }
+</script>
 
 
 

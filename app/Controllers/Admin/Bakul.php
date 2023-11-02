@@ -109,7 +109,28 @@ class Bakul extends BaseController{
 
     
 
-}
+    }
+
+    function remove($id){
+        foreach($_SESSION['cart']['items'] as $k => $item){
+            if($item['id'] == $id){
+                unset($_SESSION['cart']['items'][$k]);
+                //session->remove($k);
+            }
+
+            
+        }
+
+        $_SESSION['remove'] = true;
+        $this->session->markAsFlashdata('remove');
+    
+        return redirect()->back();
+
+
+    }
+    
+
+
 }
 
 ?>
