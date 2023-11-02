@@ -1,0 +1,536 @@
+CRITICAL - 2023-11-01 04:29:11 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 39.
+ 1 APPPATH\Controllers\Admin\Bakul.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 04:29:28 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 39.
+ 1 APPPATH\Controllers\Admin\Bakul.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 04:30:27 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 39.
+ 1 APPPATH\Controllers\Admin\Bakul.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 04:33:27 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 37.
+ 1 APPPATH\Controllers\Admin\Bakul.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 04:33:29 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 37.
+ 1 APPPATH\Controllers\Admin\Bakul.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 04:41:34 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 38.
+ 1 APPPATH\Controllers\Admin\Bakul.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 04:43:00 --> Call to undefined method App\Controllers\Admin\Bakul::add_cart()
+in APPPATH\Controllers\Admin\Bakul.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 04:43:47 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 38.
+ 1 APPPATH\Controllers\Admin\Bakul.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 04:48:16 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 38.
+ 1 APPPATH\Controllers\Admin\Bakul.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 04:49:03 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 38.
+ 1 APPPATH\Controllers\Admin\Bakul.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 04:58:30 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 37.
+ 1 APPPATH\Controllers\Admin\Bakul.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 05:00:11 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 35.
+ 1 APPPATH\Controllers\Admin\Bakul.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:13:52 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 35.
+ 1 APPPATH\Controllers\Admin\Bakul.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:14:03 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 36.
+ 1 APPPATH\Controllers\Admin\Bakul.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:14:14 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 37.
+ 1 APPPATH\Controllers\Admin\Bakul.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:14:37 --> Call to undefined function App\Controllers\Admin\add_cart()
+in APPPATH\Controllers\Admin\Bakul.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:16:27 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 36.
+ 1 APPPATH\Controllers\Admin\Bakul.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:16:57 --> Undefined array key "nama"
+in APPPATH\Controllers\Admin\Bakul.php on line 36.
+ 1 APPPATH\Controllers\Admin\Bakul.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:17:27 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 36.
+ 1 APPPATH\Controllers\Admin\Bakul.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:20:33 --> Undefined array key "nama"
+in APPPATH\Controllers\Admin\Bakul.php on line 36.
+ 1 APPPATH\Controllers\Admin\Bakul.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:21:38 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Views\bakul.php on line 29.
+ 1 APPPATH\Views\bakul.php(29): number_format('harga', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Admin\Bakul.php(17): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:22:46 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Views\bakul.php on line 29.
+ 1 APPPATH\Views\bakul.php(29): number_format('harga', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Admin\Bakul.php(17): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:28:52 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Views\bakul.php on line 29.
+ 1 APPPATH\Views\bakul.php(29): number_format('harga', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Admin\Bakul.php(17): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:30:36 --> floatval() expects exactly 1 argument, 2 given
+in APPPATH\Views\bakul.php on line 29.
+ 1 APPPATH\Views\bakul.php(29): floatval('harga', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Admin\Bakul.php(17): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:30:56 --> Unsupported operand types: string * int
+in APPPATH\Views\bakul.php on line 31.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bakul', [], true)
+ 4 APPPATH\Controllers\Admin\Bakul.php(17): view('bakul')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:32:16 --> Unsupported operand types: string * int
+in APPPATH\Views\bakul.php on line 33.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bakul', [], true)
+ 4 APPPATH\Controllers\Admin\Bakul.php(17): view('bakul')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:38:06 --> Undefined variable $id
+in APPPATH\Controllers\Admin\Bakul.php on line 36.
+ 1 APPPATH\Controllers\Admin\Bakul.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:43:05 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 37.
+ 1 APPPATH\Controllers\Admin\Bakul.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:43:33 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 37.
+ 1 APPPATH\Controllers\Admin\Bakul.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:44:08 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 37.
+ 1 APPPATH\Controllers\Admin\Bakul.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:44:13 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 37.
+ 1 APPPATH\Controllers\Admin\Bakul.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:45:42 --> Too few arguments to function App\Controllers\Admin\Bakul::add(), 0 passed in C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Admin\Bakul.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:45:59 --> Too few arguments to function App\Controllers\Admin\Bakul::add(), 0 passed in C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Admin\Bakul.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:46:35 --> Too few arguments to function App\Controllers\Admin\Bakul::add(), 0 passed in C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Admin\Bakul.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:48:40 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 37.
+ 1 APPPATH\Controllers\Admin\Bakul.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:50:28 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 37.
+ 1 APPPATH\Controllers\Admin\Bakul.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 06:52:27 --> Undefined array key "produk_id"
+in APPPATH\Controllers\Admin\Bakul.php on line 37.
+ 1 APPPATH\Controllers\Admin\Bakul.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "produk_id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 07:01:58 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\Bakul.php on line 37.
+ 1 APPPATH\Controllers\Admin\Bakul.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 07:20:18 --> Class "Route" not found
+in APPPATH\Config\Routes.php on line 36.
+ 1 SYSTEMPATH\Router\RouteCollection.php(344): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 08:39:10 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\Bakul.php on line 89.
+ 1 APPPATH\Controllers\Admin\Bakul.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 08:40:13 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\Bakul.php on line 89.
+ 1 APPPATH\Controllers\Admin\Bakul.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 08:43:24 --> Undefined variable $all_ids
+in APPPATH\Controllers\Admin\Bakul.php on line 100.
+ 1 APPPATH\Controllers\Admin\Bakul.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_ids', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 08:44:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 in C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Documents\project tuto\kedaiku\system\Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Documents\project tuto\kedaiku\system\BaseModel.php(563): CodeIgniter\Model->doFind(false, Array)
+#6 C:\Users\DELL\Documents\project tuto\kedaiku\app\Controllers\Admin\Bakul.php(100): CodeIgniter\BaseModel->find(Array)
+#7 C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+#8 C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+#9 C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Documents\project tuto\kedaiku\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-01 08:44:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `produk`.`deleted_at` IS NULL
+AND `produk`.`id` IN :produk.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(false, [])
+ 4 APPPATH\Controllers\Admin\Bakul.php(100): CodeIgniter\BaseModel->find([])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 08:52:04 --> syntax error, unexpected variable "$_SESSION", expecting "function" or "const"
+in APPPATH\Controllers\Admin\Bakul.php on line 140.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Bakul')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Bakul')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Admin\\Bakul', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 08:53:09 --> Unmatched '}'
+in APPPATH\Controllers\Admin\Bakul.php on line 146.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Bakul')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Bakul')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Admin\\Bakul', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 08:53:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 in C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Documents\project tuto\kedaiku\system\Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Documents\project tuto\kedaiku\system\BaseModel.php(563): CodeIgniter\Model->doFind(false, Array)
+#6 C:\Users\DELL\Documents\project tuto\kedaiku\app\Controllers\Admin\Bakul.php(101): CodeIgniter\BaseModel->find(Array)
+#7 C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+#8 C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+#9 C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Documents\project tuto\kedaiku\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-01 08:53:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `produk`.`deleted_at` IS NULL
+AND `produk`.`id` IN :produk.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(false, [])
+ 4 APPPATH\Controllers\Admin\Bakul.php(101): CodeIgniter\BaseModel->find([])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 08:54:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 in C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Documents\project tuto\kedaiku\system\Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Documents\project tuto\kedaiku\system\BaseModel.php(563): CodeIgniter\Model->doFind(false, Array)
+#6 C:\Users\DELL\Documents\project tuto\kedaiku\app\Controllers\Admin\Bakul.php(100): CodeIgniter\BaseModel->find(Array)
+#7 C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+#8 C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+#9 C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Documents\project tuto\kedaiku\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-01 08:54:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `produk`.`deleted_at` IS NULL
+AND `produk`.`id` IN :produk.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(false, [])
+ 4 APPPATH\Controllers\Admin\Bakul.php(100): CodeIgniter\BaseModel->find([])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 08:54:51 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\Bakul.php on line 90.
+ 1 APPPATH\Controllers\Admin\Bakul.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 08:56:28 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\Bakul.php on line 92.
+ 1 APPPATH\Controllers\Admin\Bakul.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 08:59:34 --> syntax error, unexpected token ";", expecting "function" or "const"
+in APPPATH\Controllers\Admin\Bakul.php on line 155.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Bakul')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Bakul')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Admin\\Bakul', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 09:00:09 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\Bakul.php on line 92.
+ 1 APPPATH\Controllers\Admin\Bakul.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 09:01:08 --> Unmatched '}'
+in APPPATH\Controllers\Admin\Bakul.php on line 154.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Bakul')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Bakul')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Admin\\Bakul', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 09:07:50 --> syntax error, unexpected token "protected"
+in APPPATH\Controllers\Admin\Bakul.php on line 164.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Bakul')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Bakul')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Admin\\Bakul', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 09:11:24 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\Bakul.php on line 129.
+ 1 APPPATH\Controllers\Admin\Bakul.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 09:13:54 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\Bakul.php on line 129.
+ 1 APPPATH\Controllers\Admin\Bakul.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 09:15:14 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\Bakul.php on line 129.
+ 1 APPPATH\Controllers\Admin\Bakul.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 09:16:01 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\Bakul.php on line 129.
+ 1 APPPATH\Controllers\Admin\Bakul.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 09:16:41 --> syntax error, unexpected token ";", expecting "function" or "const"
+in APPPATH\Controllers\Admin\Bakul.php on line 161.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Bakul')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Bakul')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Admin\\Bakul', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 09:16:53 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\Bakul.php on line 92.
+ 1 APPPATH\Controllers\Admin\Bakul.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 09:18:06 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\Bakul.php on line 89.
+ 1 APPPATH\Controllers\Admin\Bakul.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Bakul.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 09:19:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 in C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Documents\project tuto\kedaiku\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Documents\project tuto\kedaiku\system\Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Documents\project tuto\kedaiku\system\BaseModel.php(563): CodeIgniter\Model->doFind(false, Array)
+#6 C:\Users\DELL\Documents\project tuto\kedaiku\app\Controllers\Admin\Bakul.php(97): CodeIgniter\BaseModel->find(Array)
+#7 C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+#8 C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+#9 C:\Users\DELL\Documents\project tuto\kedaiku\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Documents\project tuto\kedaiku\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-01 09:19:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `produk`.`deleted_at` IS NULL
+AND `produk`.`id` IN :produk.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(false, [])
+ 4 APPPATH\Controllers\Admin\Bakul.php(97): CodeIgniter\BaseModel->find([])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Bakul->update()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bakul))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

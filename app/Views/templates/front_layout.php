@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,18 +10,24 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+        <a class="navbar-brand" href="#">
             <img src="/img/ering.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
             Bootstrap 
-          </a>
-        </div>
-    </nav>
+        </a>
+      <ul class="navbar-nav">
+      <li class="nav-item">
+                <a class="nav-link" href="/bakul">Cart </a>
+            </li>
+      </ul>
+  </div>
+</nav>
 
     
-
     <?= $this->renderSection('hero') ?>
+
 
     <div class="container mt-5">
         

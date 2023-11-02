@@ -1,3 +1,7 @@
+<?php $this->extend('templates/admin_layout') ?>
+
+<?php $this->section('main-content') ?>
+
 <div class="container">
     <div class="row">
         <div class="col-12 mt-5 pt-3 pb-3 bg-white form-wrapper">
@@ -10,3 +14,5 @@
         </div>
     </div>
 </div>
+
+<?php $this->endSection() ?>

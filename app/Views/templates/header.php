@@ -34,6 +34,9 @@
                         <li class="nav-item <?= ($uri->getSegment(1) == 'gambar' ? 'active' : null) ?>">
                             <a class="nav-link" href="/gambar">Gambar </a>
                         </li>
+                        <li class="nav-item <?= ($uri->getSegment(1) == 'produk' ? 'active' : null) ?>">
+                            <a class="nav-link" href="/produk">Produk </a>
+                        </li>
                     </ul>
                     <ul class="navbar-nav my-2 my-lg-0">
                         <?php if ($this->config->lockScreen) : ?>

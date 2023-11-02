@@ -1,3 +1,6 @@
+<?php $this->extend('templates/admin_layout') ?>
+
+<?php $this->section('main-content') ?>
 
 <?php $this->config = config('Auth'); $redirect = $this->config->assignRedirect;?>
 <div class="container">
@@ -71,3 +74,4 @@
         </div>
     </div>
 </div>
+<?php $this->endSection() ?>

@@ -23,9 +23,7 @@ class Superadmin extends BaseController
 	{
 		$data = [];
 
-		echo view('templates/header', $data);
-		echo view('superadmin');
-		echo view('templates/footer');
+		return view('superadmin', $data);
 	}
 
 	//--------------------------------------------------------------------
