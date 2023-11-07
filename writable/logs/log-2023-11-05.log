@@ -1,0 +1,35 @@
+CRITICAL - 2023-11-05 13:19:39 --> Undefined variable $kategori
+in APPPATH\Views\admin\admin_produk\add.php on line 32.
+ 1 APPPATH\Views\admin\admin_produk\add.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\add.php', 32)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\add.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_produk/add', [], true)
+ 5 APPPATH\Controllers\Admin\Produk.php(61): view('admin/admin_produk/add')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-05 13:23:19 --> Undefined variable $kategori
+in APPPATH\Views\admin\admin_produk\add.php on line 32.
+ 1 APPPATH\Views\admin\admin_produk\add.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\add.php', 32)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\admin\\admin_produk\\add.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_produk/add', [], true)
+ 5 APPPATH\Controllers\Admin\Produk.php(61): view('admin/admin_produk/add')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-05 13:26:11 --> Undefined variable $kategori
+in APPPATH\Controllers\Admin\Produk.php on line 61.
+ 1 APPPATH\Controllers\Admin\Produk.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Produk.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-05 13:27:06 --> Call to undefined method App\Controllers\Admin\Produk::kategoriModel()
+in APPPATH\Controllers\Admin\Produk.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Produk->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

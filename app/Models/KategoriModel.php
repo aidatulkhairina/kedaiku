@@ -4,24 +4,24 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ProdukModel extends Model
+class KategoriModel extends Model
 {
-    protected $table      = 'produk';
+    protected $table      = 'kategori';
     protected $primaryKey = 'id';
 
     protected $useAutoIncrement = true;
 
     protected $returnType     = 'array';
-    protected $useSoftDeletes = true;
+    //protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['nama', 'description', 'gambar', 'harga', 'kategori_id'];
+    protected $allowedFields = ['nama'];
 
     // Dates
     // protected $useTimestamps = false;
     // protected $dateFormat    = 'datetime';
     // protected $createdField  = 'created_at';
     // protected $updatedField  = 'updated_at';
-    protected $deletedField  = 'deleted_at';
+    // protected $deletedField  = 'deleted_at';
 
     // // Validation
     // protected $validationRules      = [];
@@ -39,4 +39,14 @@ class ProdukModel extends Model
     // protected $afterFind      = [];
     // protected $beforeDelete   = [];
     // protected $afterDelete    = [];
+
+    function dropdown(){
+        $kategori = $this->findAll();
+        $to_return = ['' => '[-- sila pilih kategorii --]'];
+        foreach($kategori as $kat){
+            $to_return[$kat['id']] = $kat['nama'];
+        }
+
+        return $to_return;
+    }
 }

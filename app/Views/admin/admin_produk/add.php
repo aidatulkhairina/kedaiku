@@ -5,7 +5,7 @@
     <div class="container mt-5 mb-5">
         <div class="row">
             <div class="col-12">
-                <h3><a href="/produk" class="btn btn-sm btn-danger">Cancel</a> Add new image</h3>
+                <h3><a href="/produk" class="btn btn-sm btn-danger">Cancel</a> Add new product</h3>
                 <hr>
                 <?php echo form_open_multipart('produk/add') ?>
                 <form class="mb-5">
@@ -22,6 +22,18 @@
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="harga" placeholder="harga" name="harga" >
                         </div>
+                    </div>
+
+                    <div class="form-group row mt-2">
+                        <label for="kategori" class="col-sm-2 col-form-label">Kategori</label>
+                        <div class="col-sm-10">
+                       
+                            <?php 
+                                echo form_dropdown('kategori_id', $kategori, null, 
+                                 ['class' => 'form-control']);
+
+                            ?>
+                    </div>
                     </div>
 
                     <div class="form-group row mt-4">

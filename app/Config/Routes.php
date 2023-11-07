@@ -35,6 +35,8 @@ $routes->get('/', 'Admin\Produk::homepage');
 //$routes->get('bakul/add', 'Admin\Bakul::add');
 $routes->get('bakul', 'Admin\Bakul::index');
 
+
+
 $routes->post('bakul/add','Admin\Bakul::add');
 
 $routes->post('bakul/update','Admin\Bakul::update');
@@ -42,7 +44,8 @@ $routes->post('bakul/update','Admin\Bakul::update');
 $routes->post('bakul/remove','Admin\Bakul::remove');
 
 $routes->get('bakul/remove/(:num)', 'Admin\Bakul::remove/$1');
-    
+  
+
 
 // $routes->get('produk_homepage', 'Admin\Produk::homepage');
 
@@ -58,7 +61,7 @@ $routes->get('bakul/remove/(:num)', 'Admin\Bakul::remove/$1');
 	$routes->get('superadmin', 'superadmin::index'); // SUPER ADMIN DASHBOARD
 	$routes->match(['get', 'post'], 'superadmin/profile', 'Auth::profile'); 
     
-
+    //gambar
     $routes->get('gambar', 'Admin\Gambar::index');
 
     $routes->get('gambar/edit/(:num)', 'Admin\Gambar::edit/$1');
@@ -72,6 +75,7 @@ $routes->get('bakul/remove/(:num)', 'Admin\Bakul::remove/$1');
     $routes->post('gambar/edit/(:num)', 'Admin\Gambar::save_edit/$1');
 
     
+    //produk
     $routes->get('produk', 'Admin\Produk::index');
 
     $routes->get('produk/edit/(:num)', 'Admin\Produk::edit/$1');
@@ -85,6 +89,17 @@ $routes->get('bakul/remove/(:num)', 'Admin\Bakul::remove/$1');
     $routes->post('produk/edit/(:num)', 'Admin\Produk::save_edit/$1');
     
     $routes->post('bakul/remove','Admin\Bakul::remove');
+
+
+    
+    //kategori
+    $routes->get('kategori', 'Admin\Kategori::index');
+    $routes->get('kategori/add','Admin\Kategori::add');
+    $routes->post('kategori/add', 'Admin\Kategori::save_new');
+    $routes->get('kategori/edit/(:num)', 'Admin\Kategori::edit/$1');
+    $routes->get('kategori/delete/(:num)', 'Admin\Kategori::delete/$1');
+    $routes->post('kategori/edit/(:num)', 'Admin\Kategori::save_edit/$1');
+
     
 });
 

@@ -37,6 +37,20 @@
                         </div>
                     </div>
 
+                    <div class="form-group row mt-2">
+                        <label for="nama" class="col-sm-2 col-form-label">Kategori</label>
+                        <div class="col-sm-10">
+                       
+                            <?php
+
+                                echo form_dropdown('kategori_id',  $kategori, $produk['kategori_id'], [
+                                    'class' => 'form-control'
+                                ] );
+                            ?>
+
+                    </div>
+                    </div>
+
                     <div class="form-group row mt-4">
                         <label for="description" class="col-sm-2 col-form-label">Description</label>
                         <div class="col-sm-10">

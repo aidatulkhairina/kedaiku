@@ -45,6 +45,9 @@
     <div class="card">
         <img src="/img/<?php echo $p['gambar']; ?>" class="card-img-top" alt="...">
         <div class="card-body">
+            <p>
+              <span class="badge text-bg-info"><?= $kategori[$p['kategori_id']] ?></span>
+            </p>
             <h5 class="card-title"><?php echo $p['nama'] ?></h5>
             <p class="card-text"><?php echo $p['description'] ?></p>
             <p class="card-text">

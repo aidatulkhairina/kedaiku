@@ -28,8 +28,8 @@
 
         <div class="row">
             <div class="col-12 pt-4">
-                <h3>Senarai Produk</h3>
-                <a href="/produk/add/" class="mb-3 btn btn-primary btn-sm float-right">Add New</a>
+                <h3>Senarai Kategori</h3>
+                <a href="/kategori/add/" class="mb-3 btn btn-primary btn-sm float-right">Add New</a>
             </div>
 
             <div class="col-12">
@@ -38,27 +38,32 @@
                         <tr>
                             <th>ID</th>
                             <th>Gambar</th>
-                            <th>Nama</th>
-                            <th>Kategori</th>
-                            <th>Harga</th>
                             <th></th>
                         </tr>
                     </thead>
 
                     <tbody>
-                        <?php foreach($produk as $p) { ?>
+
+                    <?php if(count($kategori)<1){ ?>
+                        <tr>
+                            <td colspan="3">No record found in category.</td>
+                        </tr>
+                    <?php }else{ ?>
+
+
+
+
+                        <?php foreach($kategori as $p) { ?>
                         <tr>
                             <td><?= $p['id'] ?></td>
-                            <td><img src="/img/<?= $p['gambar'] ?>" alt="" width="130" height="90"></td>
                             <td><?= $p['nama'] ?></td>
-                            <td><?=  $kategori[$p['kategori_id']] ?></td>
-                            <td>RM <?= number_format($p['harga'],2) ?></td>
                             <td>
-                                <a href="/produk/edit/<?= $p['id'] ?>" class="btn btn-primary btn-sm">Edit</a>
-                                <button href="/produk/delete/<?= $p['id'] ?>" onclick="confirm_delete(<?= $p['id'] ?>)" class="btn btn-danger btn-sm">Delete</button>
+                                <a href="/kategori/edit/<?= $p['id'] ?>" class="btn btn-primary btn-sm">Edit</a>
+                                <button href="/kategori/delete/<?= $p['id'] ?>" onclick="confirm_delete(<?= $p['id'] ?>)" class="btn btn-danger btn-sm">Delete</button>
                             </td>
                         </tr>
                         <?php } ?>
+                        <?php }  ?>
                     </tbody>
                 </table>
             </div>
@@ -79,7 +84,7 @@
 <script>
     function confirm_delete(id){
         if(confirm('Are your sure to delete record ID '+id+'?')){
-            window.location.href = '/produk/delete/'+id;
+            window.location.href = '/kategori/delete/'+id;
         }
         
     }
