@@ -96,3 +96,55 @@ WHERE `produk`.`id` IN :produk.id:', [...], false)
  7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
  8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 02:13:45 --> Invalid file: "checkout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('checkout.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('checkout.php', [], true)
+ 3 APPPATH\Controllers\Admin\Checkout.php(17): view('checkout.php', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 07:18:03 --> [] operator not supported for strings
+in APPPATH\Controllers\Admin\Checkout.php on line 134.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->process_checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 07:18:42 --> [] operator not supported for strings
+in APPPATH\Controllers\Admin\Checkout.php on line 134.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->process_checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 07:20:29 --> [] operator not supported for strings
+in APPPATH\Controllers\Admin\Checkout.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->process_checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 07:21:04 --> Cannot use a scalar value as an array
+in APPPATH\Controllers\Admin\Checkout.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->process_checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 07:22:42 --> Undefined variable $payment_gateway
+in APPPATH\Controllers\Admin\Checkout.php on line 138.
+ 1 APPPATH\Controllers\Admin\Checkout.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payment_gateway', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Checkout.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->process_checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 07:22:59 --> Undefined constant "App\Controllers\Admin\this"
+in APPPATH\Controllers\Admin\Checkout.php on line 136.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->process_checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 08:58:45 --> Class "App\Controllers\Admin\App\Libraries\Payment\SecurePay" not found
+in APPPATH\Controllers\Admin\Checkout.php on line 151.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->process_checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

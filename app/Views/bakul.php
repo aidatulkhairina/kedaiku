@@ -70,7 +70,7 @@
                         <?php }else{  ?>
 
                         <tr>
-                            <td colspan='5'>
+                            <td colspan='6'>
                                 your cart is empty
                             </td>
                         </tr>

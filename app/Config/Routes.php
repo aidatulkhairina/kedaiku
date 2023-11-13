@@ -9,7 +9,7 @@ use CodeIgniter\Router\RouteCollection;
 // $routes->setDefaultController('Produk');
 // $routes->setDefaultMethod('homepage');
 // $routes->setTranslateURIDashes(false);
-// $routes->set404Override();
+$routes->set404Override();
 $routes->setAutoRoute(true);
 
 
@@ -35,7 +35,15 @@ $routes->get('/', 'Admin\Produk::homepage');
 //$routes->get('bakul/add', 'Admin\Bakul::add');
 $routes->get('bakul', 'Admin\Bakul::index');
 
+$routes->get('checkout', 'Admin\Checkout::index');
+$routes->post('checkout','Admin\Checkout::process_checkout');
 
+$routes->post('checkout/redirect/(:any)', 'Admin\Checkout::redirect/$1');
+// $routes->post('checkout/redirect/securepay', 'Admin\Checkout::redirect/securepay');
+// $routes->post('checkout/redirect/(:segment)', 'Admin\Checkout::redirect/$1');
+
+$routes->get('checkout/thankyou', 'Admin\Checkout::thankyou');
+$routes->get('checkout/thankyou/(:any)', 'Admin\Checkout::thankyou/$1');
 
 $routes->post('bakul/add','Admin\Bakul::add');
 

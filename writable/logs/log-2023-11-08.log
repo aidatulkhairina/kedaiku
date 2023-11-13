@@ -1,0 +1,111 @@
+CRITICAL - 2023-11-08 01:38:28 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Admin\Checkout.php on line 253.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Checkout.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Checkout')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Checkout')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Admin\\Checkout', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 03:33:31 --> Undefined variable $order_no
+in APPPATH\Controllers\Admin\Checkout.php on line 174.
+ 1 APPPATH\Controllers\Admin\Checkout.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_no', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Checkout.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->redirect('securepay')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 03:43:19 --> Undefined variable $order_item
+in APPPATH\Views\thankyou.php on line 27.
+ 1 APPPATH\Views\thankyou.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_item', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('thankyou', [], true)
+ 5 APPPATH\Controllers\Admin\Checkout.php(264): view('thankyou', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->thankyou('U9rgZthPqE')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 03:46:35 --> Undefined variable $order_item
+in APPPATH\Views\thankyou.php on line 27.
+ 1 APPPATH\Views\thankyou.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_item', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('thankyou', [], true)
+ 5 APPPATH\Controllers\Admin\Checkout.php(264): view('thankyou', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->thankyou('U9rgZthPqE')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 04:20:13 --> Undefined variable $order_item
+in APPPATH\Views\thankyou.php on line 27.
+ 1 APPPATH\Views\thankyou.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_item', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('thankyou', [], true)
+ 5 APPPATH\Controllers\Admin\Checkout.php(264): view('thankyou', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->thankyou('U9rgZthPqE')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 04:32:34 --> Undefined array key "cart"
+in APPPATH\Controllers\Admin\Checkout.php on line 124.
+ 1 APPPATH\Controllers\Admin\Checkout.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cart"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Controllers\\Admin\\Checkout.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->process_checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 04:40:38 --> Undefined array key "cart"
+in APPPATH\Views\thankyou.php on line 27.
+ 1 APPPATH\Views\thankyou.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cart"', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('thankyou', [], true)
+ 5 APPPATH\Controllers\Admin\Checkout.php(264): view('thankyou', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->thankyou('fWGKyo9Wdn')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 04:41:27 --> Undefined variable $order_item
+in APPPATH\Views\thankyou.php on line 27.
+ 1 APPPATH\Views\thankyou.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_item', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('thankyou', [], true)
+ 5 APPPATH\Controllers\Admin\Checkout.php(264): view('thankyou', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->thankyou('fWGKyo9Wdn')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 04:41:30 --> Undefined variable $order_item
+in APPPATH\Views\thankyou.php on line 27.
+ 1 APPPATH\Views\thankyou.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_item', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('thankyou', [], true)
+ 5 APPPATH\Controllers\Admin\Checkout.php(264): view('thankyou', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->thankyou('fWGKyo9Wdn')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 04:41:37 --> Undefined variable $order_item
+in APPPATH\Views\thankyou.php on line 27.
+ 1 APPPATH\Views\thankyou.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_item', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('thankyou', [], true)
+ 5 APPPATH\Controllers\Admin\Checkout.php(264): view('thankyou', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->thankyou('fWGKyo9Wdn')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 04:41:56 --> Undefined variable $order
+in APPPATH\Views\thankyou.php on line 27.
+ 1 APPPATH\Views\thankyou.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order', 'C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\DELL\\Documents\\project tuto\\kedaiku\\app\\Views\\thankyou.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('thankyou', [], true)
+ 5 APPPATH\Controllers\Admin\Checkout.php(264): view('thankyou', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Checkout->thankyou('fWGKyo9Wdn')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Checkout))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
