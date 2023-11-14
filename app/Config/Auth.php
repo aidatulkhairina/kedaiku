@@ -71,7 +71,7 @@ class Auth extends BaseConfig
      *
      * @var bool
      */
-    public $sendActivationEmail = false;
+    public $sendActivationEmail = true;
     
     /**
      * --------------------------------------------------------------------
@@ -83,7 +83,7 @@ class Auth extends BaseConfig
      * 
      * @var int
      */
-    public $resetTokenExpire = 1;
+    public $resetTokenExpire = 6;
 
     /**
      * --------------------------------------------------------------------

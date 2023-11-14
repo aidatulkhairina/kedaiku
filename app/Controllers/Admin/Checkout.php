@@ -214,6 +214,8 @@ class Checkout extends BaseController
             $this->ordersModel->update($order['id'], $order);
 
             
+           
+            
 
         
         // }
@@ -222,6 +224,22 @@ class Checkout extends BaseController
         // }
 
         if($payment_status == 'true'){
+                $email = \Config\Services::email();
+
+                $email->setTo($order['email']);
+                $email->setCC('nero@nero.com');
+                $email->setBCC('nero2@nero.com');
+
+                $email->setSubject('thankyou for the order ['.$order['order_no'].']');
+                $email->setMessage('Thanks! Please come again');
+
+                // $email->send();
+                try {
+                    $email->send();
+                } catch (\Exception $e) {
+                    log_message('error', 'Email sending error: ' . $e->getMessage());
+                }
+            
             return redirect()->to('/checkout/thankyou/'.$order_no);
         }
             return redirect()->to('/cart');
@@ -243,6 +261,8 @@ class Checkout extends BaseController
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         
         }
+
+
 
         $this->data['order_item'] = $this->orderItemsModel->where('order_id', $this->data['order']['id'])->findAll();
         

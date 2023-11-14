@@ -14,7 +14,7 @@ class Bakul extends BaseController{
 
     public function index(){
 
-        return view('bakul');
+        return view('bakul', $this->data);
     }
 
     function add(){

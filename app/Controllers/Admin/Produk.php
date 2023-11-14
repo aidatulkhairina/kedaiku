@@ -23,7 +23,9 @@ class Produk extends BaseController
             'kategori' => $kategori
         ];
 
-        return view('produk_homepage', $data);
+        $this->data = array_merge($this->data, $data);
+
+        return view('produk_homepage', $this->data);
     }
 
     public function index()
